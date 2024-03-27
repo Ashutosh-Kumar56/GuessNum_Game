@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="num_guess.css">
+    <title>Number Guessing Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="red">Guess the Number?</h1>
+        <h3>Enter Number from 1 to 100</h3>
+        <input type="number" id="num">
+        <h4 id="Try">Try and guess it!!</h4>
+        <button id="val" onclick="getValue()">Submit</button>
+        <h2 id="msg"></h2>
+        <h2 id="msg2"></h2>
+        <button type="button" id="refresh" style="display: none;" onClick="window.location.reload()">
+            reload page
+        </button>
+    </div>
+    <script src="num_guess.js"></script>
+</body>
+</html>
